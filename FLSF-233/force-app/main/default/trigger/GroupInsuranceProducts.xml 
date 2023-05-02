@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trigger>
+    <userStory>As a stakeholder in the Group Insurance Products, I need a system that can handle the responsibilities of the marketing team, unit (new business), ZO, CO, actuarial, re-insurer, underwriter, master policy holder, member, and channel users to streamline the process of lead generation, underwriting, policy issuance, claim processing, and commission management.</userStory>
+    <acceptanceCriteria>
+        <module>Lead generation, creation, proposal, and quotation generation to be managed by the marketing team.</module>
+        <unit>Configure master policies, map units, underwrite policies, manage reinsurance, issue policy bonds, collect stamp duty, and generate reports.</unit>
+        <zo>Approve deviations in underwriting, reinsurance, and statutory reports.</zo>
+        <co>Make all approval decisions pertaining to deviations, underwriting pricing, reinsurance, delayed claims, new product configuration, unit code, ZO code creation, scheme-wise interest tables, premium rate tables, and centralized collection and payment-related activities.</co>
+        <actuarial>Perform valuations.</actuarial>
+        <reinsurer>Make pricing decisions.</reinsurer>
+        <underwriter>Make underwriting pricing decisions and decisions related to underwriting.</underwriter>
+        <masterPolicyHolder>Manage member data, payments, claim forms, changes in scheme rules, consent for renewal, member addition, request for conversion, withdrawal, surrender, member-level payments, TDS details, GST, funding based on valuations, and non-monetary services.</masterPolicyHolder>
+        <member>Acknowledge receipt of claim forms.</member>
+        <channelUser>Update leads, coordinate with customers on document collection, and acknowledge commission receipts.</channelUser>
+    </acceptanceCriteria>
+</trigger>
