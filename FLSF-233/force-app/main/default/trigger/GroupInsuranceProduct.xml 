@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trigger>
+	<userStory>As a stakeholder in the Group Insurance Products, I need a system that can handle the responsibilities of the marketing team, unit (new business), ZO, CO, actuarial, re-insurer, underwriter, master policy holder, member, and channel users to streamline the process of lead generation, underwriting, policy issuance, claim processing, and commission management.</userStory>
+	<acceptanceCriteria>
+		<module name="Lead Generation">
+			<description>The system should have a module for lead generation, creation, proposal, and quotation generation to be managed by the marketing team.</description>
+		</module>
+		<module name="Unit (New Business)">
+			<description>The system should allow the unit (new business) team to configure master policies, map units, underwrite policies, manage reinsurance, issue policy bonds, collect stamp duty, and generate reports.</description>
+		</module>
+		<module name="ZO Approvals">
+			<description>The system should enable ZO to approve deviations in underwriting, reinsurance, and statutory reports.</description>
+		</module>
+		<module name="CO Approvals">
+			<description>The system should allow CO to make all approval decisions pertaining to deviations, underwriting pricing, reinsurance, delayed claims, new product configuration, unit code, ZO code creation, scheme-wise interest tables, premium rate tables, and centralized collection and payment-related activities.</description>
+		</module>
+		<module name="Actuarial Valuations">
+			<description>The system should enable the actuarial team to perform valuations.</description>
+		</module>
+		<module name="Re-Insurer Pricing">
+			<description>The system should allow the re-insurer to make pricing decisions.</description>
+		</module>
+		<module name="Underwriter Decisions">
+			<description>The system should enable the underwriter to make underwriting pricing decisions and decisions related to underwriting.</description>
+		</module>
+		<module name="Master Policy Holder Management">
+			<description>The system should allow the master policy holder to manage member data, payments, claim forms, changes in scheme rules, consent for renewal, member addition, request for conversion, withdrawal, surrender, member-level payments, TDS details, GST, funding based on valuations, and non-monetary services.</description>
+		</module>
+		<module name="Member Acknowledgement">
+			<description>The system should allow the member to acknowledge receipt of claim forms.</description>
+		</module>
+		<module name="Channel User Management">
+			<description>The system should allow channel users (agents/intermediaries) to update leads, coordinate with customers on document collection, and acknowledge commission receipts.</description>
+		</module>
+	</acceptanceCriteria>
+</trigger>
